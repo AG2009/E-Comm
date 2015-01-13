@@ -1,0 +1,52 @@
+
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon"> 
+
+<title>Sign Up</title>
+<link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+
+<div id="container">
+	<div id="header">
+	<h3> Sign Up </h3>
+	</div>
+	<form id="contactForm" method="post" action="">
+	<ul class="userInfo">
+	<li>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="User name" class="medium" required>
+
+	</li>
+	<li> 
+		<label for="email">User Id:</label> 
+		<input type="email" name="email" id="email" placeholder="Your email id" class="medium" required > 
+	</li> 
+	
+	<li> 
+		<label for="contactNo">Contact Number</label> 
+		<input type="number" name="contactNo" id="contactNo" placeholder="Enter 10 digit number" class="medium" required pattern="[0-9]{10}"> 
+	</li> 
+	<li> 
+		<label for="pwd">Password</label> 
+		<input type="password" name="pwd" id="pwd" placeholder="Enter the password" class="medium" required> 
+	</li> 
+	
+		<label for="cnfrmPwd">Confirm password</label> 
+		<input type="password" name="cnfrmPwd" id="cnfrmPwd" placeholder="Retype password" class="medium" required> 
+	</li> 
+	<li> 
+	<input type="submit" id="submit" value="submit">
+	</li> 
+
+
+	
+
+
+
+	
+	</form>
+</div>
+</body>    
