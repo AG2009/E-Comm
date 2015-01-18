@@ -1,13 +1,13 @@
-#container {background-color: #BDBDBD; min-height: 60em;}
+#container {background-color: #eeeeee; min-height: 60em;}
 h1 { color: #DF3A01; text-align: center;padding-top: 1em; font-size: 4em; font-family: 'Roboto Condensed', sans-serif;}
 
 #contactForm {background-color: #FFFFFF;    width:25%; height:auto; margin: 0 auto;  }
-h3 {text-align: center; font-size: 2em; padding-top:  1em; font-family: 'Roboto Condensed', sans-serif;}
+h3 {text-align: center; font-size: 32px; padding-top:  1em; font-family: 'Roboto Condensed', sans-serif;}
 .userInfo {margin: 2em 2em;}
 
-.userInfo li {list-style:none; font-family: 'Roboto Condensed', sans-serif;}
-.userInfo #terms { text-align: center; color:#BDBDBD ; font-size: 11px;
+.userInfo li {list-style:none; font-family: 'Roboto Condensed', sans-serif; font-size:16px;}
+.userInfo #terms { text-align: center; color:#BDBDBD ; font-size: 14px;
 padding: 20px;}
 
-input {padding: .5em; margin: .2em; width: 83%;}
-#submit {width: 88%; clear:both ; text-align:center; background-color: #DF3A01; margin-bottom: 2em; }
+input { width: 440px; height: 60px; background-color: 1px #c2c2c2}
+#submit {Width: 440px; height: 60px; clear:both ; text-align:center; background-color: #e64a19; margin-bottom: 2em; color:#ffffff;}
