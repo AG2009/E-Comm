@@ -1,12 +1,11 @@
 #container {background-color: #BDBDBD; min-height: 60em;}
-h1 { color: #DF3A01; text-align: center;padding-top: 1em; font-size: 4em;}
+h1 { color: #DF3A01; text-align: center;padding-top: 1em; font-size: 4em; font-family: 'Roboto Condensed', sans-serif;}
 
-#contactForm {background-color: #FFFFFF;    width:25%; height:auto; margin: 43em; 
-margin-top: 1em;}
-h3 {text-align: center; font-size: 2em; padding-top:  1em;}
+#contactForm {background-color: #FFFFFF;    width:25%; height:auto; margin: 0 auto;  }
+h3 {text-align: center; font-size: 2em; padding-top:  1em; font-family: 'Roboto Condensed', sans-serif;}
 .userInfo {margin: 2em 2em;}
 
-.userInfo li {list-style:none;}
+.userInfo li {list-style:none; font-family: 'Roboto Condensed', sans-serif;}
 .userInfo #terms { text-align: center; color:#BDBDBD ; font-size: 11px;
 padding: 20px;}
 
