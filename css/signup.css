@@ -1,9 +1,14 @@
-#header {background-color: #070719; width:100%; height:5em}
-h3 {color :#FFFFFF; margin-left: .5em; font-size: 3em;
-padding-top: 10px;}
-#contactForm {width:50%; height:auto; position: relative;
-margin-top: 4em;}
+#container {background-color: #BDBDBD; min-height: 60em;}
+h1 { color: #DF3A01; text-align: center;padding-top: 1em; font-size: 4em;}
+
+#contactForm {background-color: #FFFFFF;    width:25%; height:auto; margin: 43em; 
+margin-top: 1em;}
+h3 {text-align: center; font-size: 2em; padding-top:  1em;}
+.userInfo {margin: 2em 2em;}
+
 .userInfo li {list-style:none;}
-label {width:20%; text-align:right; line-height:2em; display:block; float:left;clear:left; }
-input {padding: .3em; margin: .5em;}
-#submit {clear;both ; text-align:center; border: 1px solid black; margin-left:10.5em}
+.userInfo #terms { text-align: center; color:#BDBDBD ; font-size: 11px;
+padding: 20px;}
+
+input {padding: .5em; margin: .2em; width: 83%;}
+#submit {width: 88%; clear:both ; text-align:center; background-color: #DF3A01; margin-bottom: 2em; }
