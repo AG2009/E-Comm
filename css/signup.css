@@ -1,19 +1,17 @@
 
-#contactForm {background-color: #FFFFFF;    width:25%; height:auto; margin: 0 auto;  }
-h3 {text-align: center; font-size: 32px; padding-top:  1em; font-family: 'Roboto Condensed', sans-serif;}
-.userInfo {margin: 2em 2em;}
+.sign-up {background-color: #FFFFFF;    width:500px; height:auto; margin: 0 auto;  }
+h3 {text-align: center; font-size: 32px; padding-top:  1em; font-family: 'Roboto', sans-serif;}
+.user-info {margin: 2em 2em;}
 
-.userInfo li {list-style:none; font-family: 'Roboto Condensed', sans-serif; font-size:16px;}
-.userInfo #terms { text-align: center; color:#BDBDBD ; font-size: 14px;
-#container{background-color: #BDBDBD; min-height: 60em;}
+.user-info li {list-style:none; font-family: 'Roboto', sans-serif; font-size:16px;}
+.user-info .terms { text-align: center; color:#BDBDBD ; font-size: 14px; }
+.container{background-color: #BDBDBD; min-height: 60em; }
 h1 { color: #DF3A01; text-align: center;padding-top: 1em; font-size: 4em; font-family: 'Roboto', sans-serif;}
 
-#contactForm {background-color: #FFFFFF;    width:25%; height:auto; margin: 0 auto;  }
-h3 {text-align: center; font-size: 2em; padding-top:  1em; font-family: 'Roboto', sans-serif;}
-.userInfo {margin: 2em 2em;}
 
+.user-info label {font-size: 16px; margin-bottom: 15px;}
 .userInfo li {list-style:none; font-family: 'Roboto', sans-serif;}
 
 
-input { width: 440px; height: 60px; background-color: 1px #c2c2c2}
-#submit {width: 440px; height: 60px; clear:both ; text-align:center; background-color: #e64a19; margin-bottom: 2em; color:#ffffff;}
+input { width: 440px; height: 60px; border-color: 1px #c2c2c2; margin-bottom: 25px; border-radius: 3px; }
+.submit {width: 440px; height: 60px; font-size: 20px; clear:both ; text-align:center; background-color: #e64a19; margin-bottom: 2em; color:#ffffff;}
