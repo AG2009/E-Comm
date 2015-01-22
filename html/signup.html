@@ -1,52 +1,59 @@
-
-<!doctype html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon"> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Signup - Tinance</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Sign Up</title>
-<link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/signup.css">
 </head>
+
 <body>
+    <div class="container">
+        <div class="header">
+            <h1>
+            	<img src="../images/logo.svg" alt="">
+            </h1>
+        </div>
+        <div class="sign-up">
+            <h3>Sign Up</h3>
+            <form method="post" action="">
 
-<div id="container">
-	<div id="header">
-	<h3> Sign Up </h3>
-	</div>
-	<form id="contactForm" method="post" action="">
-	<ul class="userInfo">
-	<li>
-		<label for="name">Name:</label>
-		<input type="text" id="name" name="name" placeholder="User name" class="medium" required>
+                <ul class="user-info">
+                    <label>Full Name</label>
+                    <li>
+                        <input type="text" id="name" name="name" placeholder="User name" class="medium" required>
+                    </li>
+                    <label> Email</label>
+                    <li>
+                        <input type="email" name="email" id="email" placeholder="Your email id" class="medium" required>
+                    </li>
+                    <label>Password</label>
+                    <li>
+                        <input type="password" name="pwd" id="pwd" placeholder="Enter the password" class="medium" required>
+                    </li>
+                    <label>Confirm password</label>
+                    <li>
+                        <input type="password" name="cnfrmPwd" id="cnfrmPwd" placeholder="Retype password" class="medium" required>
+                    </li>
+                    <li>
+	                    <p class="terms">By clicking the button below you agree to the terms and privacy policy of Tinance.</p>
+                    </li>
+                    <li>
+                    	<button type="submit" class="btn-register">Register</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
 
-	</li>
-	<li> 
-		<label for="email">User Id:</label> 
-		<input type="email" name="email" id="email" placeholder="Your email id" class="medium" required > 
-	</li> 
-	
-	<li> 
-		<label for="contactNo">Contact Number</label> 
-		<input type="number" name="contactNo" id="contactNo" placeholder="Enter 10 digit number" class="medium" required pattern="[0-9]{10}"> 
-	</li> 
-	<li> 
-		<label for="pwd">Password</label> 
-		<input type="password" name="pwd" id="pwd" placeholder="Enter the password" class="medium" required> 
-	</li> 
-	
-		<label for="cnfrmPwd">Confirm password</label> 
-		<input type="password" name="cnfrmPwd" id="cnfrmPwd" placeholder="Retype password" class="medium" required> 
-	</li> 
-	<li> 
-	<input type="submit" id="submit" value="submit">
-	</li> 
-
-
-	
-
-
-
-	
-	</form>
-</div>
-</body>    
+</html>
