@@ -2,7 +2,13 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
-
+.container {
+    background-color: #eeeeee;
+    min-height: 60em;
+}
+.header {
+	margin-bottom: 50px;
+}
 .sign-up {
     background-color: #FFFFFF;
     width: 500px;
@@ -27,10 +33,6 @@ h3 {
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 20px;
-}
-.container {
-    background-color: #BDBDBD;
-    min-height: 60em;
 }
 h1 {
     color: #DF3A01;

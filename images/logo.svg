@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="203" height="36" viewBox="0 0 203 36">
+  <defs>
+    <style>
+
+      .cls-2 {
+        font-size: 48px;
+      }
+
+      .cls-3 {
+        fill: #ff5722;
+        text-anchor: middle;
+        font-size: 48px;
+        font-family: "Museo700-Regular";
+      }
+    </style>
+  </defs>
+  <text class="cls-2" x="101px" y="35px"><tspan x="50%" class="cls-3">Tinance</tspan></text>
+</svg>
