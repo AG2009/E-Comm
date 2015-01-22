@@ -32,6 +32,7 @@ h3 {
     color: #BDBDBD;
     font-size: 14px;
     font-weight: 300;
+    line-height: 20px;
     margin-bottom: 20px;
 }
 h1 {
@@ -42,6 +43,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 .user-info label {
+	color: rgba(0, 0, 0, 0.87);
 	display: block;
     font-size: 16px;
     margin-bottom: 15px;
@@ -58,6 +60,8 @@ input {
     border-radius: 3px;
     box-shadow: none;
     font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
 }
 .btn-register {
     width: 100%;
