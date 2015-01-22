@@ -1,17 +1,61 @@
-
-.sign-up {background-color: #FFFFFF;    width:500px; height:auto; margin: 0 auto;  }
-h3 {text-align: center; font-size: 32px; padding-top:  1em; font-family: 'Roboto', sans-serif;}
-.user-info {margin: 2em 2em;}
-
-.user-info li {list-style:none; font-family: 'Roboto', sans-serif; font-size:16px;}
-.user-info .terms { text-align: center; color:#BDBDBD ; font-size: 14px; }
-.container{background-color: #BDBDBD; min-height: 60em; }
-h1 { color: #DF3A01; text-align: center;padding-top: 1em; font-size: 4em; font-family: 'Roboto', sans-serif;}
-
-
-.user-info label {font-size: 16px; margin-bottom: 15px;}
-.userInfo li {list-style:none; font-family: 'Roboto', sans-serif;}
-
-
-input { width: 440px; height: 60px; border-color: 1px #c2c2c2; margin-bottom: 25px; border-radius: 3px; }
-.submit {width: 440px; height: 60px; font-size: 20px; clear:both ; text-align:center; background-color: #e64a19; margin-bottom: 2em; color:#ffffff;}
+.sign-up {
+    background-color: #FFFFFF;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+h3 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+.user-info {
+    margin: 2em 2em;
+}
+.user-info li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.user-info .terms {
+    text-align: center;
+    color: #BDBDBD;
+    font-size: 14px;
+}
+.container {
+    background-color: #BDBDBD;
+    min-height: 60em;
+}
+h1 {
+    color: #DF3A01;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+}
+.user-info label {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.userInfo li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+input {
+    width: 440px;
+    height: 60px;
+    border-color: 1px #c2c2c2;
+    margin-bottom: 25px;
+    border-radius: 3px;
+}
+.submit {
+    width: 440px;
+    height: 60px;
+    font-size: 20px;
+    clear: both;
+    text-align: center;
+    background-color: #e64a19;
+    margin-bottom: 2em;
+    color: #ffffff;
+}
