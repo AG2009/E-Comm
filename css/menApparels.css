@@ -6,13 +6,12 @@
 }
 
 .container {
-	padding-left:30px;
-	padding-right: 30px;
-	margin: 15px 30px;
+	
     background-color: #eeeeee;
     height: auto;
 }
-.headbar {background-color:#e64a19; 
+.headbar {background-color:#FFFFFF;
+			margin: 0; 
 			height:4em;
 			margin-bottom:5px;
 }
@@ -27,10 +26,13 @@
 .header li a {color: #000000;}  
 
 .menu a {font-size: 24px;
-		
-		padding-top: 20px;	
-		margin-left: 13px;
-		position: absolute;
+			padding-top: 20px;
+			position: absolute;
+			background-color: #e64a19;
+			color: #FFFFFF;
+			width: 80px;
+			height: 63px;
+			text-align: center;
 }
 
 
@@ -39,6 +41,7 @@
 			width: 300px;	
 			position: absolute;
 			padding: 4px;
+			top: 70px;
 	}
 .nav-items li {height: 25px;
 				text-align: center;
@@ -47,15 +50,15 @@
 			text-align: center;
 			display: block;
 			}
-.nav li a { color: #FFFFFF;}
+.nav li a { color: #000000;}
 
-.men-nav a , .women-nav a  {display: none;}
+.men-nav a , .women-nav a { display: none;}
 
 .nav-items li a {font-size: 16px;
 				color: #FFFFFF;}
 
 .nav > li {background: -webkit-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
-			color: #000000; 
+			color: #000000;
 			padding-top: 15px;
 			}
 .social-media li{display:inline-block; 
